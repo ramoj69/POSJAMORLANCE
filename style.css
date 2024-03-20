@@ -1,0 +1,149 @@
+*{
+    font-family: monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.container{
+    width: 60%;
+    min-height: 80vh;
+    background: linear-gradient(135deg, #B67352, #ECB159);
+    padding: 10px;
+    margin-left: 400px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+}
+
+#button_finalize{
+    border:none;
+    outline: none;
+    padding: 20px 50px;
+    background: #222831;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#add_item{
+    border:none;
+    outline: none;
+    padding: 20px 50px;
+    background: #222831;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-left: 30px;
+}
+#Payment_button{
+    border:none;
+    outline: none;
+    padding: 20px 50px;
+    background: #222831;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+/* quantity input text */
+.item_quantity{
+    width: 50px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+    color: #333;
+    font-size: 20px;
+    margin: 5px;
+}
+
+#payment{
+    width: 50px;
+    padding: 10px;
+    border: 1px solid #050000;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+    color: #333;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.item_select {
+    /* Your CSS styles for the item select here */
+    /* For example: */
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #050000;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+    color: #333;
+    font-size: 20px;
+    margin: 5px;
+  }
+/* #add_item .Items h2 #item_select{
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    color: #333;
+    outline: none;
+    cursor: pointer; 
+    
+} */
+.logo {
+    position: static;
+    float: right;
+    margin-top: 350px;
+    margin-right: 20px;
+  }
+.header{
+    font-size: 30px;
+   
+}
+.header img{
+    width: 70px;
+    height: auto;
+    margin-left: 10px;
+}
+.item img{
+    width: 30px;
+    height: auto;
+    margin-left: 10px;
+}
+.Items img{
+    width: 30px;
+    height: auto;
+    margin-left: 10px;
+}
+.payment img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+.quantitysec img{
+    width: 40px;
+    margin-left: 10px;
+}
+
+.Items {
+    margin-left: 20px;
+}
+
+.item {
+    margin-left: 20px;
+}
+.quantitysec{
+
+    margin-left: 20px;
+}
+.payment{
+    margin-left: 20px;
+}
